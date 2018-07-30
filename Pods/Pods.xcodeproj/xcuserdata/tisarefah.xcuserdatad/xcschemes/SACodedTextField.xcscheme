@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A2D591C5073A2AAC2A598B52297AD740"
-               BlueprintName = "Spring"
+               BlueprintIdentifier = "AB3D35E8373654890026CE36ADDE3AF7"
+               BlueprintName = "SACodedTextField"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Spring.framework">
+               BuildableName = "SACodedTextField.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -49,11 +49,9 @@ target 'MyRefah' do
   
   pod 'UICheckbox.Swift'
   
-  pod 'QRCode'
-  
   pod 'PagingTableView'
   
-  pod 'PersianDatePicker'
+  pod 'SACodedTextField'
   
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
   

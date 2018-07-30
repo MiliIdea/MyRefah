@@ -21,8 +21,7 @@ PODS:
   - ObjectMapper (3.3.0)
   - OneSignal (2.8.5)
   - PagingTableView (0.1.0)
-  - PersianDatePicker (0.5.0)
-  - QRCode (2.0)
+  - SACodedTextField (1.0)
   - Spring (1.0.5)
   - SWXMLHash (4.0.0)
   - Toast-Swift (3.0.1)
@@ -45,8 +44,7 @@ DEPENDENCIES:
   - ObjectMapper (~> 3.1)
   - OneSignal
   - PagingTableView
-  - PersianDatePicker
-  - QRCode
+  - SACodedTextField
   - Spring (from `https://github.com/MengTo/Spring.git`)
   - SWXMLHash (~> 4.0.0)
   - Toast-Swift
@@ -72,8 +70,7 @@ SPEC REPOS:
     - ObjectMapper
     - OneSignal
     - PagingTableView
-    - PersianDatePicker
-    - QRCode
+    - SACodedTextField
     - SWXMLHash
     - Toast-Swift
     - UICheckbox.Swift
@@ -106,14 +103,13 @@ SPEC CHECKSUMS:
   ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
   OneSignal: 42dae269c7eca517aee34963820e1eb922390031
   PagingTableView: ba7869ff22f7cf3f8b2190b0314688d2cb0e46c4
-  PersianDatePicker: ee74ea5f8b6269bd604c8fa70ea36529cf0a5282
-  QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+  SACodedTextField: dc04d2b84ed0a141261c1080570e8df88816b289
   Spring: 3c7666eccefdeb87140008dc81043f89f8dbb787
   SWXMLHash: 6bbc0bf72975a18ceda469fb7d6a886a26d81694
   Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
   UICheckbox.Swift: 85715689206fac5bae38b308f19c2a3e00442c3b
   UIColor_Hex_Swift: 2fb123c7d864994a5137ef57c4dc55e17a657d29
 
-PODFILE CHECKSUM: cd17b2f294ab87beb3424dcb60a9803602667fb7
+PODFILE CHECKSUM: 5a3ee82137de726a24c019f0cd80165b922b998c
 
 COCOAPODS: 1.5.3

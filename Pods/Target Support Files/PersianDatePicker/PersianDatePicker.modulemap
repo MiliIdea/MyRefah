@@ -1,6 +1,0 @@
-framework module PersianDatePicker {
-  umbrella header "PersianDatePicker-umbrella.h"
-
-  export *
-  module * { export * }
-}

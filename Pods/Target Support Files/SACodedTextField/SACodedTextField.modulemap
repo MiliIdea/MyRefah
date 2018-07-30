@@ -1,0 +1,6 @@
+framework module SACodedTextField {
+  umbrella header "SACodedTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

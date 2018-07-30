@@ -13,6 +13,18 @@
 		052405C6210D7A5F00D153EE /* MyRefah.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 052405C4210D7A5F00D153EE /* MyRefah.xcdatamodeld */; };
 		052405C8210D7A6100D153EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052405C7210D7A6100D153EE /* Assets.xcassets */; };
 		052405CB210D7A6100D153EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052405C9210D7A6100D153EE /* LaunchScreen.storyboard */; };
+		05A312FF210F1CF30018E8CD /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A312FE210F1CF30018E8CD /* URLs.swift */; };
+		05A31301210F1DA90018E8CD /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31300210F1DA90018E8CD /* App.swift */; };
+		05A31303210F1E110018E8CD /* DefaultStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31302210F1E110018E8CD /* DefaultStrings.swift */; };
+		05A31305210F1E520018E8CD /* MR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31304210F1E520018E8CD /* MR.swift */; };
+		05A31309210F31DF0018E8CD /* LoginResData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31307210F31DE0018E8CD /* LoginResData.swift */; };
+		05A3130A210F31DF0018E8CD /* LoginRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31308210F31DF0018E8CD /* LoginRes.swift */; };
+		05A31311210F362F0018E8CD /* IRANSans(FaNum)_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A3130B210F362E0018E8CD /* IRANSans(FaNum)_Light.ttf */; };
+		05A31312210F362F0018E8CD /* iran_sans_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A3130C210F362F0018E8CD /* iran_sans_medium.ttf */; };
+		05A31313210F362F0018E8CD /* iran_sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A3130D210F362F0018E8CD /* iran_sans.ttf */; };
+		05A31314210F362F0018E8CD /* IRANSans(FaNum)_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A3130E210F362F0018E8CD /* IRANSans(FaNum)_Bold.ttf */; };
+		05A31315210F362F0018E8CD /* BYekan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A3130F210F362F0018E8CD /* BYekan.ttf */; };
+		05A31316210F362F0018E8CD /* IRANSans(FaNum).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A31310210F362F0018E8CD /* IRANSans(FaNum).ttf */; };
 		664281AE2B536A2C37B85104 /* Pods_MyRefah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4B4BBCC3B0D563A3B32A8B /* Pods_MyRefah.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +37,18 @@
 		052405C7210D7A6100D153EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		052405CA210D7A6100D153EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		052405CC210D7A6100D153EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A312FE210F1CF30018E8CD /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		05A31300210F1DA90018E8CD /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		05A31302210F1E110018E8CD /* DefaultStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStrings.swift; sourceTree = "<group>"; };
+		05A31304210F1E520018E8CD /* MR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MR.swift; sourceTree = "<group>"; };
+		05A31307210F31DE0018E8CD /* LoginResData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResData.swift; sourceTree = "<group>"; };
+		05A31308210F31DF0018E8CD /* LoginRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRes.swift; sourceTree = "<group>"; };
+		05A3130B210F362E0018E8CD /* IRANSans(FaNum)_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSans(FaNum)_Light.ttf"; sourceTree = "<group>"; };
+		05A3130C210F362F0018E8CD /* iran_sans_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iran_sans_medium.ttf; sourceTree = "<group>"; };
+		05A3130D210F362F0018E8CD /* iran_sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iran_sans.ttf; sourceTree = "<group>"; };
+		05A3130E210F362F0018E8CD /* IRANSans(FaNum)_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSans(FaNum)_Bold.ttf"; sourceTree = "<group>"; };
+		05A3130F210F362F0018E8CD /* BYekan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BYekan.ttf; sourceTree = "<group>"; };
+		05A31310210F362F0018E8CD /* IRANSans(FaNum).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSans(FaNum).ttf"; sourceTree = "<group>"; };
 		48BB75AF6CE6279135DF8B01 /* Pods-MyRefah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRefah.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRefah/Pods-MyRefah.debug.xcconfig"; sourceTree = "<group>"; };
 		9F866ECA2F8868004273539E /* Pods-MyRefah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRefah.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRefah/Pods-MyRefah.release.xcconfig"; sourceTree = "<group>"; };
 		AF4B4BBCC3B0D563A3B32A8B /* Pods_MyRefah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRefah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +87,12 @@
 		052405BC210D7A5F00D153EE /* MyRefah */ = {
 			isa = PBXGroup;
 			children = (
+				05A312F9210F1C840018E8CD /* Utils */,
+				05A312F6210F1C530018E8CD /* Models */,
+				05A31306210F1E7F0018E8CD /* Enums */,
+				05A312FB210F1C9C0018E8CD /* Cells */,
+				05A312FA210F1C930018E8CD /* ViewControllers */,
 				052405BD210D7A5F00D153EE /* AppDelegate.swift */,
-				052405BF210D7A5F00D153EE /* ViewController.swift */,
 				052405C1210D7A5F00D153EE /* Main.storyboard */,
 				052405C7210D7A6100D153EE /* Assets.xcassets */,
 				052405C9210D7A6100D153EE /* LaunchScreen.storyboard */,
@@ -72,6 +100,86 @@
 				052405C4210D7A5F00D153EE /* MyRefah.xcdatamodeld */,
 			);
 			path = MyRefah;
+			sourceTree = "<group>";
+		};
+		05A312F6210F1C530018E8CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05A312F8210F1C690018E8CD /* ResponseModels */,
+				05A312F7210F1C610018E8CD /* RequestModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		05A312F7210F1C610018E8CD /* RequestModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModels;
+			sourceTree = "<group>";
+		};
+		05A312F8210F1C690018E8CD /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				05A31307210F31DE0018E8CD /* LoginResData.swift */,
+				05A31308210F31DF0018E8CD /* LoginRes.swift */,
+			);
+			path = ResponseModels;
+			sourceTree = "<group>";
+		};
+		05A312F9210F1C840018E8CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				05A312FD210F1CCA0018E8CD /* Lotties */,
+				05A312FC210F1CBE0018E8CD /* Fonts */,
+				05A312FE210F1CF30018E8CD /* URLs.swift */,
+				05A31300210F1DA90018E8CD /* App.swift */,
+				05A31302210F1E110018E8CD /* DefaultStrings.swift */,
+				05A31304210F1E520018E8CD /* MR.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		05A312FA210F1C930018E8CD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				052405BF210D7A5F00D153EE /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		05A312FB210F1C9C0018E8CD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		05A312FC210F1CBE0018E8CD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				05A3130F210F362F0018E8CD /* BYekan.ttf */,
+				05A3130C210F362F0018E8CD /* iran_sans_medium.ttf */,
+				05A3130D210F362F0018E8CD /* iran_sans.ttf */,
+				05A3130E210F362F0018E8CD /* IRANSans(FaNum)_Bold.ttf */,
+				05A3130B210F362E0018E8CD /* IRANSans(FaNum)_Light.ttf */,
+				05A31310210F362F0018E8CD /* IRANSans(FaNum).ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		05A312FD210F1CCA0018E8CD /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		05A31306210F1E7F0018E8CD /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 		4C9C750E4DD429E94F513B5E /* Pods */ = {
@@ -125,6 +233,11 @@
 				TargetAttributes = {
 					052405B9210D7A5F00D153EE = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -151,9 +264,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A31315210F362F0018E8CD /* BYekan.ttf in Resources */,
 				052405CB210D7A6100D153EE /* LaunchScreen.storyboard in Resources */,
 				052405C8210D7A6100D153EE /* Assets.xcassets in Resources */,
+				05A31312210F362F0018E8CD /* iran_sans_medium.ttf in Resources */,
+				05A31314210F362F0018E8CD /* IRANSans(FaNum)_Bold.ttf in Resources */,
+				05A31313210F362F0018E8CD /* iran_sans.ttf in Resources */,
 				052405C3210D7A5F00D153EE /* Main.storyboard in Resources */,
+				05A31316210F362F0018E8CD /* IRANSans(FaNum).ttf in Resources */,
+				05A31311210F362F0018E8CD /* IRANSans(FaNum)_Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,8 +302,7 @@
 				"${BUILT_PRODUCTS_DIR}/MapKitGoogleStyler/MapKitGoogleStyler.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/PagingTableView/PagingTableView.framework",
-				"${BUILT_PRODUCTS_DIR}/PersianDatePicker/PersianDatePicker.framework",
-				"${BUILT_PRODUCTS_DIR}/QRCode/QRCode.framework",
+				"${BUILT_PRODUCTS_DIR}/SACodedTextField/SACodedTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
@@ -209,8 +327,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapKitGoogleStyler.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingTableView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PersianDatePicker.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SACodedTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
@@ -249,7 +366,13 @@
 			files = (
 				052405C0210D7A5F00D153EE /* ViewController.swift in Sources */,
 				052405C6210D7A5F00D153EE /* MyRefah.xcdatamodeld in Sources */,
+				05A3130A210F31DF0018E8CD /* LoginRes.swift in Sources */,
+				05A31305210F1E520018E8CD /* MR.swift in Sources */,
 				052405BE210D7A5F00D153EE /* AppDelegate.swift in Sources */,
+				05A31301210F1DA90018E8CD /* App.swift in Sources */,
+				05A31303210F1E110018E8CD /* DefaultStrings.swift in Sources */,
+				05A312FF210F1CF30018E8CD /* URLs.swift in Sources */,
+				05A31309210F31DF0018E8CD /* LoginResData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
