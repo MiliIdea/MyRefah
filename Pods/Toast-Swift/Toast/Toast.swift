@@ -605,12 +605,12 @@ public struct ToastStyle {
     /**
      The title font. Default is `.boldSystemFont(16.0)`.
     */
-    public var titleFont: UIFont = .boldSystemFont(ofSize: 16.0)
+    public var titleFont: UIFont = UIFont.init(name: "IRANSansFaNum", size: 16) ?? .boldSystemFont(ofSize: 16.0)
     
     /**
      The message font. Default is `.systemFont(ofSize: 16.0)`.
     */
-    public var messageFont: UIFont = .systemFont(ofSize: 16.0)
+    public var messageFont: UIFont = UIFont.init(name: "IRANSansFaNum", size: 16) ?? .systemFont(ofSize: 16.0)
     
     /**
      The title text alignment. Default is `NSTextAlignment.Left`.

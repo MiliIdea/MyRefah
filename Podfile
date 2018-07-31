@@ -53,6 +53,8 @@ target 'MyRefah' do
   
   pod 'SACodedTextField'
   
+  pod 'NVActivityIndicatorView'
+  
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
   
 end

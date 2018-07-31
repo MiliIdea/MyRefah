@@ -8,17 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		052405BE210D7A5F00D153EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052405BD210D7A5F00D153EE /* AppDelegate.swift */; };
-		052405C0210D7A5F00D153EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052405BF210D7A5F00D153EE /* ViewController.swift */; };
+		052405C0210D7A5F00D153EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052405BF210D7A5F00D153EE /* LoginViewController.swift */; };
 		052405C3210D7A5F00D153EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052405C1210D7A5F00D153EE /* Main.storyboard */; };
 		052405C6210D7A5F00D153EE /* MyRefah.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 052405C4210D7A5F00D153EE /* MyRefah.xcdatamodeld */; };
 		052405C8210D7A6100D153EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052405C7210D7A6100D153EE /* Assets.xcassets */; };
 		052405CB210D7A6100D153EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052405C9210D7A6100D153EE /* LaunchScreen.storyboard */; };
+		0569A4852110298900ADDE29 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A4842110298900ADDE29 /* GradientView.swift */; };
+		0569A48721103FCE00ADDE29 /* ActivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A48621103FCE00ADDE29 /* ActivationViewController.swift */; };
+		0569A48921104A4200ADDE29 /* RegisterRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A48821104A4200ADDE29 /* RegisterRes.swift */; };
+		0569A48B2110740A00ADDE29 /* IntroLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A48A2110740A00ADDE29 /* IntroLoadingViewController.swift */; };
+		0569A48D21107B6D00ADDE29 /* Rechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A48C21107B6D00ADDE29 /* Rechability.swift */; };
+		0569A48F211080FE00ADDE29 /* ErrorNetPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A48E211080FE00ADDE29 /* ErrorNetPopupViewController.swift */; };
+		0569A49121108A6E00ADDE29 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A49021108A6E00ADDE29 /* MainViewController.swift */; };
 		05A312FF210F1CF30018E8CD /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A312FE210F1CF30018E8CD /* URLs.swift */; };
 		05A31301210F1DA90018E8CD /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31300210F1DA90018E8CD /* App.swift */; };
 		05A31303210F1E110018E8CD /* DefaultStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31302210F1E110018E8CD /* DefaultStrings.swift */; };
 		05A31305210F1E520018E8CD /* MR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31304210F1E520018E8CD /* MR.swift */; };
-		05A31309210F31DF0018E8CD /* LoginResData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31307210F31DE0018E8CD /* LoginResData.swift */; };
-		05A3130A210F31DF0018E8CD /* LoginRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31308210F31DF0018E8CD /* LoginRes.swift */; };
+		05A31309210F31DF0018E8CD /* LoginRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31307210F31DE0018E8CD /* LoginRes.swift */; };
+		05A3130A210F31DF0018E8CD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31308210F31DF0018E8CD /* Data.swift */; };
 		05A31311210F362F0018E8CD /* IRANSans(FaNum)_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A3130B210F362E0018E8CD /* IRANSans(FaNum)_Light.ttf */; };
 		05A31312210F362F0018E8CD /* iran_sans_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A3130C210F362F0018E8CD /* iran_sans_medium.ttf */; };
 		05A31313210F362F0018E8CD /* iran_sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A3130D210F362F0018E8CD /* iran_sans.ttf */; };
@@ -31,18 +38,25 @@
 /* Begin PBXFileReference section */
 		052405BA210D7A5F00D153EE /* MyRefah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRefah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		052405BD210D7A5F00D153EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		052405BF210D7A5F00D153EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		052405BF210D7A5F00D153EE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		052405C2210D7A5F00D153EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		052405C5210D7A5F00D153EE /* MyRefah.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyRefah.xcdatamodel; sourceTree = "<group>"; };
 		052405C7210D7A6100D153EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		052405CA210D7A6100D153EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		052405CC210D7A6100D153EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0569A4842110298900ADDE29 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		0569A48621103FCE00ADDE29 /* ActivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationViewController.swift; sourceTree = "<group>"; };
+		0569A48821104A4200ADDE29 /* RegisterRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRes.swift; sourceTree = "<group>"; };
+		0569A48A2110740A00ADDE29 /* IntroLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroLoadingViewController.swift; sourceTree = "<group>"; };
+		0569A48C21107B6D00ADDE29 /* Rechability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rechability.swift; sourceTree = "<group>"; };
+		0569A48E211080FE00ADDE29 /* ErrorNetPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorNetPopupViewController.swift; sourceTree = "<group>"; };
+		0569A49021108A6E00ADDE29 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		05A312FE210F1CF30018E8CD /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 		05A31300210F1DA90018E8CD /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		05A31302210F1E110018E8CD /* DefaultStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStrings.swift; sourceTree = "<group>"; };
 		05A31304210F1E520018E8CD /* MR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MR.swift; sourceTree = "<group>"; };
-		05A31307210F31DE0018E8CD /* LoginResData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResData.swift; sourceTree = "<group>"; };
-		05A31308210F31DF0018E8CD /* LoginRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRes.swift; sourceTree = "<group>"; };
+		05A31307210F31DE0018E8CD /* LoginRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRes.swift; sourceTree = "<group>"; };
+		05A31308210F31DF0018E8CD /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		05A3130B210F362E0018E8CD /* IRANSans(FaNum)_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSans(FaNum)_Light.ttf"; sourceTree = "<group>"; };
 		05A3130C210F362F0018E8CD /* iran_sans_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iran_sans_medium.ttf; sourceTree = "<group>"; };
 		05A3130D210F362F0018E8CD /* iran_sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iran_sans.ttf; sourceTree = "<group>"; };
@@ -102,6 +116,15 @@
 			path = MyRefah;
 			sourceTree = "<group>";
 		};
+		0569A4832110296B00ADDE29 /* LocalLibs */ = {
+			isa = PBXGroup;
+			children = (
+				0569A4842110298900ADDE29 /* GradientView.swift */,
+				0569A48C21107B6D00ADDE29 /* Rechability.swift */,
+			);
+			path = LocalLibs;
+			sourceTree = "<group>";
+		};
 		05A312F6210F1C530018E8CD /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,8 +144,9 @@
 		05A312F8210F1C690018E8CD /* ResponseModels */ = {
 			isa = PBXGroup;
 			children = (
-				05A31307210F31DE0018E8CD /* LoginResData.swift */,
-				05A31308210F31DF0018E8CD /* LoginRes.swift */,
+				05A31308210F31DF0018E8CD /* Data.swift */,
+				05A31307210F31DE0018E8CD /* LoginRes.swift */,
+				0569A48821104A4200ADDE29 /* RegisterRes.swift */,
 			);
 			path = ResponseModels;
 			sourceTree = "<group>";
@@ -130,6 +154,7 @@
 		05A312F9210F1C840018E8CD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				0569A4832110296B00ADDE29 /* LocalLibs */,
 				05A312FD210F1CCA0018E8CD /* Lotties */,
 				05A312FC210F1CBE0018E8CD /* Fonts */,
 				05A312FE210F1CF30018E8CD /* URLs.swift */,
@@ -143,7 +168,11 @@
 		05A312FA210F1C930018E8CD /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				052405BF210D7A5F00D153EE /* ViewController.swift */,
+				052405BF210D7A5F00D153EE /* LoginViewController.swift */,
+				0569A48621103FCE00ADDE29 /* ActivationViewController.swift */,
+				0569A48A2110740A00ADDE29 /* IntroLoadingViewController.swift */,
+				0569A48E211080FE00ADDE29 /* ErrorNetPopupViewController.swift */,
+				0569A49021108A6E00ADDE29 /* MainViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -300,6 +329,7 @@
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MapKitGoogleStyler/MapKitGoogleStyler.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/PagingTableView/PagingTableView.framework",
 				"${BUILT_PRODUCTS_DIR}/SACodedTextField/SACodedTextField.framework",
@@ -325,6 +355,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapKitGoogleStyler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingTableView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SACodedTextField.framework",
@@ -364,15 +395,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				052405C0210D7A5F00D153EE /* ViewController.swift in Sources */,
+				052405C0210D7A5F00D153EE /* LoginViewController.swift in Sources */,
 				052405C6210D7A5F00D153EE /* MyRefah.xcdatamodeld in Sources */,
-				05A3130A210F31DF0018E8CD /* LoginRes.swift in Sources */,
+				0569A4852110298900ADDE29 /* GradientView.swift in Sources */,
+				0569A48721103FCE00ADDE29 /* ActivationViewController.swift in Sources */,
+				05A3130A210F31DF0018E8CD /* Data.swift in Sources */,
+				0569A48B2110740A00ADDE29 /* IntroLoadingViewController.swift in Sources */,
 				05A31305210F1E520018E8CD /* MR.swift in Sources */,
+				0569A49121108A6E00ADDE29 /* MainViewController.swift in Sources */,
 				052405BE210D7A5F00D153EE /* AppDelegate.swift in Sources */,
+				0569A48D21107B6D00ADDE29 /* Rechability.swift in Sources */,
 				05A31301210F1DA90018E8CD /* App.swift in Sources */,
 				05A31303210F1E110018E8CD /* DefaultStrings.swift in Sources */,
+				0569A48F211080FE00ADDE29 /* ErrorNetPopupViewController.swift in Sources */,
 				05A312FF210F1CF30018E8CD /* URLs.swift in Sources */,
-				05A31309210F31DF0018E8CD /* LoginResData.swift in Sources */,
+				05A31309210F31DF0018E8CD /* LoginRes.swift in Sources */,
+				0569A48921104A4200ADDE29 /* RegisterRes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +556,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JK772YMH8E;
+				DEVELOPMENT_TEAM = 7358RL8G34;
 				INFOPLIST_FILE = MyRefah/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -538,7 +576,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JK772YMH8E;
+				DEVELOPMENT_TEAM = 7358RL8G34;
 				INFOPLIST_FILE = MyRefah/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

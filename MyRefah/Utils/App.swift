@@ -23,4 +23,11 @@ public class App {
         }
     }
     
+    static func showNetworkErrorPopup(vc : UIViewController){
+        vc.view.endEditing(true)
+        let popup : ErrorNetPopupViewController = (vc.storyboard?.instantiateViewController(withIdentifier: "ErrorNetPopupViewController"))! as! ErrorNetPopupViewController
+        vc.addChildViewController(popup)
+        vc.view.addSubview(popup.view)
+        popup.didMove(toParentViewController: vc)
+    }
 }

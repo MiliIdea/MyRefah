@@ -9,14 +9,46 @@
 import UIKit
 import CoreData
 
+/*
+ 
+ let vC : LoginViewController = (self.storyboard?.instantiateViewController(withIdentifier: "LoginViewController"))! as! LoginViewController
+ self.navigationController?.pushViewController(vC, animated: true)
+ 
+ */
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        let appdelegate = UIApplication.shared.delegate as! AppDelegate
+//        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//        let homeViewController = mainStoryboard.instantiateViewController(withIdentifier: "IntroLoadingViewController") as! IntroLoadingViewController
+//        let nav = UINavigationController(rootViewController: homeViewController)
+//        nav.setNavigationBarHidden(true, animated: false)
+//        nav.setToolbarHidden(true, animated: false)
+//        appdelegate.window!.rootViewController = nav
+        
+        do {
+            Network.reachability = try Reachability(hostname: "www.google.com")
+            do {
+                try Network.reachability?.start()
+            } catch let error as Network.Error {
+                print(error)
+            } catch {
+                print(error)
+            }
+        } catch {
+            print(error)
+        }
+        
+        
         return true
     }
 

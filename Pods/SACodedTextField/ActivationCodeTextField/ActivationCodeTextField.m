@@ -55,7 +55,7 @@
     self.maxCodeLength = 6;
     
     UILabel *label = [UILabel new];
-    [label setTextColor:[UIColor blackColor]];
+    [label setTextColor:[UIColor greenColor]];
     self.label = label;
     [self addSubview:label];
     

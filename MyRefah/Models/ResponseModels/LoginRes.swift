@@ -13,15 +13,20 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 
 import Foundation
 struct LoginRes : Codable {
-	let data : LoginResData?
+    
+	let mobile : String?
+	let name : String?
 
 	enum CodingKeys: String, CodingKey {
-		case data = "data"
-	}
 
-	init(from decoder: Decoder) throws {
-		let values = try decoder.container(keyedBy: CodingKeys.self)
-		data = try values.decodeIfPresent(LoginResData.self, forKey: .data)
+		case mobile = "mobile"
+		case name = "name"
 	}
+//
+//    init(from decoder: Decoder) throws {
+//        let values = try decoder.container(keyedBy: CodingKeys.self)
+//        mobile = try values.decodeIfPresent(String.self, forKey: .mobile)
+//        name = try values.decodeIfPresent(String.self, forKey: .name)
+//    }
 
 }

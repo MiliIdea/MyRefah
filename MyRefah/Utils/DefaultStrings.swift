@@ -12,5 +12,8 @@ public class DefaultStrings {
     
     static let loginRes = "loginRes"
     
+    static let token = "token"
+    
+    static let refreshToken = "refreshToken"
     
 }
