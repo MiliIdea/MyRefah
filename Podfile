@@ -55,6 +55,8 @@ target 'MyRefah' do
   
   pod 'NVActivityIndicatorView'
   
+  pod 'Pastel'
+  
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
   
 end

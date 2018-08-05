@@ -13,6 +13,10 @@
 		052405C6210D7A5F00D153EE /* MyRefah.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 052405C4210D7A5F00D153EE /* MyRefah.xcdatamodeld */; };
 		052405C8210D7A6100D153EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052405C7210D7A6100D153EE /* Assets.xcassets */; };
 		052405CB210D7A6100D153EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052405C9210D7A6100D153EE /* LaunchScreen.storyboard */; };
+		0554FA3C2116C5C70086CE83 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554FA3B2116C5C70086CE83 /* DrawerViewController.swift */; };
+		0554FA402116DF550086CE83 /* DiscountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554FA3E2116DF550086CE83 /* DiscountTableViewCell.swift */; };
+		0554FA412116DF550086CE83 /* DiscountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0554FA3F2116DF550086CE83 /* DiscountTableViewCell.xib */; };
+		0554FA432116E24D0086CE83 /* DiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554FA422116E24D0086CE83 /* DiscountViewController.swift */; };
 		0569A4852110298900ADDE29 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A4842110298900ADDE29 /* GradientView.swift */; };
 		0569A48721103FCE00ADDE29 /* ActivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A48621103FCE00ADDE29 /* ActivationViewController.swift */; };
 		0569A48921104A4200ADDE29 /* RegisterRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A48821104A4200ADDE29 /* RegisterRes.swift */; };
@@ -44,6 +48,10 @@
 		052405C7210D7A6100D153EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		052405CA210D7A6100D153EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		052405CC210D7A6100D153EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0554FA3B2116C5C70086CE83 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		0554FA3E2116DF550086CE83 /* DiscountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountTableViewCell.swift; sourceTree = "<group>"; };
+		0554FA3F2116DF550086CE83 /* DiscountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscountTableViewCell.xib; sourceTree = "<group>"; };
+		0554FA422116E24D0086CE83 /* DiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewController.swift; sourceTree = "<group>"; };
 		0569A4842110298900ADDE29 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		0569A48621103FCE00ADDE29 /* ActivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationViewController.swift; sourceTree = "<group>"; };
 		0569A48821104A4200ADDE29 /* RegisterRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRes.swift; sourceTree = "<group>"; };
@@ -116,6 +124,17 @@
 			path = MyRefah;
 			sourceTree = "<group>";
 		};
+		0554FA3D2116DEC20086CE83 /* AtFirstViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				052405BF210D7A5F00D153EE /* LoginViewController.swift */,
+				0569A48621103FCE00ADDE29 /* ActivationViewController.swift */,
+				0569A48A2110740A00ADDE29 /* IntroLoadingViewController.swift */,
+				0569A48E211080FE00ADDE29 /* ErrorNetPopupViewController.swift */,
+			);
+			path = AtFirstViewControllers;
+			sourceTree = "<group>";
+		};
 		0569A4832110296B00ADDE29 /* LocalLibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,11 +187,10 @@
 		05A312FA210F1C930018E8CD /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				052405BF210D7A5F00D153EE /* LoginViewController.swift */,
-				0569A48621103FCE00ADDE29 /* ActivationViewController.swift */,
-				0569A48A2110740A00ADDE29 /* IntroLoadingViewController.swift */,
-				0569A48E211080FE00ADDE29 /* ErrorNetPopupViewController.swift */,
+				0554FA3D2116DEC20086CE83 /* AtFirstViewControllers */,
 				0569A49021108A6E00ADDE29 /* MainViewController.swift */,
+				0554FA3B2116C5C70086CE83 /* DrawerViewController.swift */,
+				0554FA422116E24D0086CE83 /* DiscountViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -180,6 +198,8 @@
 		05A312FB210F1C9C0018E8CD /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				0554FA3E2116DF550086CE83 /* DiscountTableViewCell.swift */,
+				0554FA3F2116DF550086CE83 /* DiscountTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -295,6 +315,7 @@
 			files = (
 				05A31315210F362F0018E8CD /* BYekan.ttf in Resources */,
 				052405CB210D7A6100D153EE /* LaunchScreen.storyboard in Resources */,
+				0554FA412116DF550086CE83 /* DiscountTableViewCell.xib in Resources */,
 				052405C8210D7A6100D153EE /* Assets.xcassets in Resources */,
 				05A31312210F362F0018E8CD /* iran_sans_medium.ttf in Resources */,
 				05A31314210F362F0018E8CD /* IRANSans(FaNum)_Bold.ttf in Resources */,
@@ -332,6 +353,7 @@
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/PagingTableView/PagingTableView.framework",
+				"${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework",
 				"${BUILT_PRODUCTS_DIR}/SACodedTextField/SACodedTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
@@ -358,6 +380,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingTableView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pastel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SACodedTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
@@ -407,7 +430,10 @@
 				0569A48D21107B6D00ADDE29 /* Rechability.swift in Sources */,
 				05A31301210F1DA90018E8CD /* App.swift in Sources */,
 				05A31303210F1E110018E8CD /* DefaultStrings.swift in Sources */,
+				0554FA402116DF550086CE83 /* DiscountTableViewCell.swift in Sources */,
 				0569A48F211080FE00ADDE29 /* ErrorNetPopupViewController.swift in Sources */,
+				0554FA432116E24D0086CE83 /* DiscountViewController.swift in Sources */,
+				0554FA3C2116C5C70086CE83 /* DrawerViewController.swift in Sources */,
 				05A312FF210F1CF30018E8CD /* URLs.swift in Sources */,
 				05A31309210F31DF0018E8CD /* LoginRes.swift in Sources */,
 				0569A48921104A4200ADDE29 /* RegisterRes.swift in Sources */,

@@ -15,6 +15,56 @@ import Toast_Swift
 // MR = MyRequests
 public class MR {
     
+    
+    //************************** ALL REQUESTs **************************//
+    
+    
+    static func register(vc : UIViewController , phone : String  ,_ withLoading : Bool = true , completionHandler: @escaping (Data<LoginRes>?) -> Void){
+        request(URLs.login, method: .post , parameters: ["mobile" : phone] , encoding: JSONEncoding.default).responseDecodableObject(decoder: App.decoder) { (response : DataResponse<Data<LoginRes>>) in
+            self.resHandler(vc: vc, response: response){res in
+                completionHandler(res?.result.value)
+            }
+        }
+        
+    }
+    
+    
+    static func activate(vc : UIViewController , phone : String , code : String  ,_ withLoading : Bool = true , completionHandler: @escaping (Data<RegisterRes>?) -> Void){
+        request(URLs.register, method: .post , parameters: ["mobile" : phone , "code" : code] , encoding: JSONEncoding.default).responseDecodableObject(decoder: App.decoder) { (response : DataResponse<Data<RegisterRes>>) in
+            self.resHandler(vc: vc, response: response){res in
+                completionHandler(res?.result.value)
+            }
+        }
+        
+    }
+    
+    
+    
+    
+    static func advertise(vc : UIViewController ,_ withLoading : Bool = true , completionHandler: @escaping (Data<RegisterRes>?) -> Void){
+        request(URLs.getAdvertise, method: .get , parameters: [:] , encoding: JSONEncoding.default).responseDecodableObject(decoder: App.decoder) { (response : DataResponse<Data<RegisterRes>>) in
+            self.resHandler(vc: vc, response: response){res in
+                completionHandler(res?.result.value)
+            }
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     static func resHandler<T>(vc : UIViewController , response : DataResponse<Data<T>> , completionHandler: @escaping (DataResponse<Data<T>>?) -> Void){
         vc.view.isUserInteractionEnabled = true
         if(response.response?.statusCode == 200){
@@ -52,31 +102,6 @@ public class MR {
             }
         }
     }
-    
-    
-    //************************** ALL REQUESTs **************************//
-    
-    
-    static func register(vc : UIViewController , phone : String  ,_ withLoading : Bool = true , completionHandler: @escaping (Data<LoginRes>?) -> Void){
-        request(URLs.login, method: .post , parameters: ["mobile" : phone] , encoding: JSONEncoding.default).responseDecodableObject(decoder: App.decoder) { (response : DataResponse<Data<LoginRes>>) in
-            self.resHandler(vc: vc, response: response){res in
-                completionHandler(res?.result.value)
-            }
-        }
-        
-    }
-    
-    
-    static func activate(vc : UIViewController , phone : String , code : String  ,_ withLoading : Bool = true , completionHandler: @escaping (Data<RegisterRes>?) -> Void){
-        request(URLs.register, method: .post , parameters: ["mobile" : phone , "code" : code] , encoding: JSONEncoding.default).responseDecodableObject(decoder: App.decoder) { (response : DataResponse<Data<RegisterRes>>) in
-            self.resHandler(vc: vc, response: response){res in
-                completionHandler(res?.result.value)
-            }
-        }
-        
-    }
-    
-    
 }
 
 

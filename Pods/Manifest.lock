@@ -24,6 +24,7 @@ PODS:
   - ObjectMapper (3.3.0)
   - OneSignal (2.8.5)
   - PagingTableView (0.1.0)
+  - Pastel (0.4.0)
   - SACodedTextField (1.0)
   - Spring (1.0.5)
   - SWXMLHash (4.0.0)
@@ -48,6 +49,7 @@ DEPENDENCIES:
   - ObjectMapper (~> 3.1)
   - OneSignal
   - PagingTableView
+  - Pastel
   - SACodedTextField
   - Spring (from `https://github.com/MengTo/Spring.git`)
   - SWXMLHash (~> 4.0.0)
@@ -75,6 +77,7 @@ SPEC REPOS:
     - ObjectMapper
     - OneSignal
     - PagingTableView
+    - Pastel
     - SACodedTextField
     - SWXMLHash
     - Toast-Swift
@@ -109,6 +112,7 @@ SPEC CHECKSUMS:
   ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
   OneSignal: 42dae269c7eca517aee34963820e1eb922390031
   PagingTableView: ba7869ff22f7cf3f8b2190b0314688d2cb0e46c4
+  Pastel: 7fa5e26123b3dbe11f7ed255654bf37100b199a5
   SACodedTextField: dc04d2b84ed0a141261c1080570e8df88816b289
   Spring: 3c7666eccefdeb87140008dc81043f89f8dbb787
   SWXMLHash: 6bbc0bf72975a18ceda469fb7d6a886a26d81694
@@ -116,6 +120,6 @@ SPEC CHECKSUMS:
   UICheckbox.Swift: 85715689206fac5bae38b308f19c2a3e00442c3b
   UIColor_Hex_Swift: 2fb123c7d864994a5137ef57c4dc55e17a657d29
 
-PODFILE CHECKSUM: 535a0e7410e8998ad0bab422db59394af4cb0a94
+PODFILE CHECKSUM: aac112194a005c7d619ec394da7da9b696eb152d
 
 COCOAPODS: 1.5.3
