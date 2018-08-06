@@ -17,6 +17,8 @@
 		0554FA402116DF550086CE83 /* DiscountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554FA3E2116DF550086CE83 /* DiscountTableViewCell.swift */; };
 		0554FA412116DF550086CE83 /* DiscountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0554FA3F2116DF550086CE83 /* DiscountTableViewCell.xib */; };
 		0554FA432116E24D0086CE83 /* DiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554FA422116E24D0086CE83 /* DiscountViewController.swift */; };
+		0554FA452116EAAE0086CE83 /* DiscountRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554FA442116EAAE0086CE83 /* DiscountRes.swift */; };
+		0554FA472116FD320086CE83 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 0554FA462116FD320086CE83 /* loading.json */; };
 		0569A4852110298900ADDE29 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A4842110298900ADDE29 /* GradientView.swift */; };
 		0569A48721103FCE00ADDE29 /* ActivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A48621103FCE00ADDE29 /* ActivationViewController.swift */; };
 		0569A48921104A4200ADDE29 /* RegisterRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A48821104A4200ADDE29 /* RegisterRes.swift */; };
@@ -24,6 +26,11 @@
 		0569A48D21107B6D00ADDE29 /* Rechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A48C21107B6D00ADDE29 /* Rechability.swift */; };
 		0569A48F211080FE00ADDE29 /* ErrorNetPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A48E211080FE00ADDE29 /* ErrorNetPopupViewController.swift */; };
 		0569A49121108A6E00ADDE29 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569A49021108A6E00ADDE29 /* MainViewController.swift */; };
+		056E304421171E8000815958 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E304321171E8000815958 /* ImageDownloader.swift */; };
+		056E30492118364F00815958 /* loading2.json in Resources */ = {isa = PBXBuildFile; fileRef = 056E30452118364F00815958 /* loading2.json */; };
+		056E304A2118364F00815958 /* loading1.json in Resources */ = {isa = PBXBuildFile; fileRef = 056E30462118364F00815958 /* loading1.json */; };
+		056E304B2118364F00815958 /* loading3.json in Resources */ = {isa = PBXBuildFile; fileRef = 056E30472118364F00815958 /* loading3.json */; };
+		056E304C2118364F00815958 /* loading4.json in Resources */ = {isa = PBXBuildFile; fileRef = 056E30482118364F00815958 /* loading4.json */; };
 		05A312FF210F1CF30018E8CD /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A312FE210F1CF30018E8CD /* URLs.swift */; };
 		05A31301210F1DA90018E8CD /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31300210F1DA90018E8CD /* App.swift */; };
 		05A31303210F1E110018E8CD /* DefaultStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A31302210F1E110018E8CD /* DefaultStrings.swift */; };
@@ -52,6 +59,8 @@
 		0554FA3E2116DF550086CE83 /* DiscountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountTableViewCell.swift; sourceTree = "<group>"; };
 		0554FA3F2116DF550086CE83 /* DiscountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscountTableViewCell.xib; sourceTree = "<group>"; };
 		0554FA422116E24D0086CE83 /* DiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewController.swift; sourceTree = "<group>"; };
+		0554FA442116EAAE0086CE83 /* DiscountRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountRes.swift; sourceTree = "<group>"; };
+		0554FA462116FD320086CE83 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		0569A4842110298900ADDE29 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		0569A48621103FCE00ADDE29 /* ActivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationViewController.swift; sourceTree = "<group>"; };
 		0569A48821104A4200ADDE29 /* RegisterRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRes.swift; sourceTree = "<group>"; };
@@ -59,6 +68,11 @@
 		0569A48C21107B6D00ADDE29 /* Rechability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rechability.swift; sourceTree = "<group>"; };
 		0569A48E211080FE00ADDE29 /* ErrorNetPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorNetPopupViewController.swift; sourceTree = "<group>"; };
 		0569A49021108A6E00ADDE29 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		056E304321171E8000815958 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		056E30452118364F00815958 /* loading2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading2.json; sourceTree = "<group>"; };
+		056E30462118364F00815958 /* loading1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading1.json; sourceTree = "<group>"; };
+		056E30472118364F00815958 /* loading3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading3.json; sourceTree = "<group>"; };
+		056E30482118364F00815958 /* loading4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading4.json; sourceTree = "<group>"; };
 		05A312FE210F1CF30018E8CD /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 		05A31300210F1DA90018E8CD /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		05A31302210F1E110018E8CD /* DefaultStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStrings.swift; sourceTree = "<group>"; };
@@ -140,6 +154,7 @@
 			children = (
 				0569A4842110298900ADDE29 /* GradientView.swift */,
 				0569A48C21107B6D00ADDE29 /* Rechability.swift */,
+				056E304321171E8000815958 /* ImageDownloader.swift */,
 			);
 			path = LocalLibs;
 			sourceTree = "<group>";
@@ -166,6 +181,7 @@
 				05A31308210F31DF0018E8CD /* Data.swift */,
 				05A31307210F31DE0018E8CD /* LoginRes.swift */,
 				0569A48821104A4200ADDE29 /* RegisterRes.swift */,
+				0554FA442116EAAE0086CE83 /* DiscountRes.swift */,
 			);
 			path = ResponseModels;
 			sourceTree = "<group>";
@@ -220,6 +236,11 @@
 		05A312FD210F1CCA0018E8CD /* Lotties */ = {
 			isa = PBXGroup;
 			children = (
+				0554FA462116FD320086CE83 /* loading.json */,
+				056E30462118364F00815958 /* loading1.json */,
+				056E30452118364F00815958 /* loading2.json */,
+				056E30472118364F00815958 /* loading3.json */,
+				056E30482118364F00815958 /* loading4.json */,
 			);
 			path = Lotties;
 			sourceTree = "<group>";
@@ -315,10 +336,15 @@
 			files = (
 				05A31315210F362F0018E8CD /* BYekan.ttf in Resources */,
 				052405CB210D7A6100D153EE /* LaunchScreen.storyboard in Resources */,
+				056E304B2118364F00815958 /* loading3.json in Resources */,
 				0554FA412116DF550086CE83 /* DiscountTableViewCell.xib in Resources */,
+				056E304A2118364F00815958 /* loading1.json in Resources */,
+				056E304C2118364F00815958 /* loading4.json in Resources */,
 				052405C8210D7A6100D153EE /* Assets.xcassets in Resources */,
 				05A31312210F362F0018E8CD /* iran_sans_medium.ttf in Resources */,
+				056E30492118364F00815958 /* loading2.json in Resources */,
 				05A31314210F362F0018E8CD /* IRANSans(FaNum)_Bold.ttf in Resources */,
+				0554FA472116FD320086CE83 /* loading.json in Resources */,
 				05A31313210F362F0018E8CD /* iran_sans.ttf in Resources */,
 				052405C3210D7A5F00D153EE /* Main.storyboard in Resources */,
 				05A31316210F362F0018E8CD /* IRANSans(FaNum).ttf in Resources */,
@@ -339,17 +365,15 @@
 				"${BUILT_PRODUCTS_DIR}/AFDateHelper/AFDateHelper.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.framework",
-				"${BUILT_PRODUCTS_DIR}/BvMapCluster/BvMapCluster.framework",
 				"${BUILT_PRODUCTS_DIR}/CHIPageControl/CHIPageControl.framework",
-				"${BUILT_PRODUCTS_DIR}/ClusterKit/ClusterKit.framework",
 				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/DCKit/DCKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
 				"${BUILT_PRODUCTS_DIR}/Gallery/Gallery.framework",
 				"${BUILT_PRODUCTS_DIR}/IGRPhotoTweaks/IGRPhotoTweaks.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/MapKitGoogleStyler/MapKitGoogleStyler.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/PagingTableView/PagingTableView.framework",
@@ -360,23 +384,22 @@
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/UICheckbox.Swift/UICheckbox_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFDateHelper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityLogger.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BvMapCluster.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHIPageControl.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ClusterKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gallery.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGRPhotoTweaks.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapKitGoogleStyler.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingTableView.framework",
@@ -387,6 +410,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICheckbox_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_Hex_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -421,6 +445,7 @@
 				052405C0210D7A5F00D153EE /* LoginViewController.swift in Sources */,
 				052405C6210D7A5F00D153EE /* MyRefah.xcdatamodeld in Sources */,
 				0569A4852110298900ADDE29 /* GradientView.swift in Sources */,
+				0554FA452116EAAE0086CE83 /* DiscountRes.swift in Sources */,
 				0569A48721103FCE00ADDE29 /* ActivationViewController.swift in Sources */,
 				05A3130A210F31DF0018E8CD /* Data.swift in Sources */,
 				0569A48B2110740A00ADDE29 /* IntroLoadingViewController.swift in Sources */,
@@ -433,6 +458,7 @@
 				0554FA402116DF550086CE83 /* DiscountTableViewCell.swift in Sources */,
 				0569A48F211080FE00ADDE29 /* ErrorNetPopupViewController.swift in Sources */,
 				0554FA432116E24D0086CE83 /* DiscountViewController.swift in Sources */,
+				056E304421171E8000815958 /* ImageDownloader.swift in Sources */,
 				0554FA3C2116C5C70086CE83 /* DrawerViewController.swift in Sources */,
 				05A312FF210F1CF30018E8CD /* URLs.swift in Sources */,
 				05A31309210F31DF0018E8CD /* LoginRes.swift in Sources */,

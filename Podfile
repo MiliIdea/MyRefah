@@ -20,14 +20,14 @@ target 'MyRefah' do
   pod 'DCKit'
 
   pod 'CHIPageControl/Aji'
-
-  pod 'MapKitGoogleStyler'
   
   pod 'Toast-Swift'
   
   pod 'IQKeyboardManagerSwift'
   
   pod 'AlamofireNetworkActivityLogger', '~> 2.3'
+  
+  pod 'Disk', '~> 0.3.3'
   
   pod 'CodableAlamofire'
   
@@ -38,8 +38,6 @@ target 'MyRefah' do
   pod 'IGRPhotoTweaks', '~> 1.0.0'
   
   pod 'Kingfisher', '~> 4.0'
-  
-  pod 'BvMapCluster'
   
   pod 'ObjectMapper', '~> 3.1'
   
@@ -56,6 +54,8 @@ target 'MyRefah' do
   pod 'NVActivityIndicatorView'
   
   pod 'Pastel'
+  
+  pod 'lottie-ios'
   
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
   

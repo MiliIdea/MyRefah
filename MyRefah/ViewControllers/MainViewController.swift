@@ -112,6 +112,8 @@ class MainViewController: UIViewController {
             if(view.viewWithTag(20) != nil){(view.viewWithTag(20) as! UILabel).alpha = 1}
         }){completion in
             self.shakeView(vw: view)
+            view.frame.origin = endPoint
+//            view.bringSubview(toFront: view.viewWithTag(22)!)
         }
         
     }
@@ -125,6 +127,7 @@ class MainViewController: UIViewController {
         animation.isAdditive = true
         
         vw.layer.add(animation, forKey: "shake")
+        
     }
     
     @IBAction func goDiscount(_ sender: Any) {
@@ -133,21 +136,26 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func goStore(_ sender: Any) {
+        print("store")
     }
     
     @IBAction func goShoppingList(_ sender: Any) {
+        print("goShoppingList")
     }
     
     @IBAction func goBarcodeReader(_ sender: Any) {
+        print("goBarcodeReader")
     }
     
     @IBAction func goNews(_ sender: Any) {
+        print("goNews")
     }
     
     @IBAction func goContactUs(_ sender: Any) {
+        print("goContactUs")
     }
     
-    
+   
     
     
     

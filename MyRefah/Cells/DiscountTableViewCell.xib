@@ -19,7 +19,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="375" height="177.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5E-xl-CcL" customClass="DCBorderedButton" customModule="DCKit">
+                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5E-xl-CcL" customClass="DCBorderedButton" customModule="DCKit">
                         <rect key="frame" x="191" y="6" width="166" height="165"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <userDefinedRuntimeAttributes>
@@ -30,11 +30,11 @@
                                 <real key="value" value="0.0"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="normalBackgroundColor">
-                                <color key="value" red="0.52146994810000002" green="0.85778843549999995" blue="0.54959218679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="value" red="0.94028634330000005" green="0.94028634330000005" blue="0.94028634330000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </button>
-                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xn-wT-AQa" customClass="DCBorderedButton" customModule="DCKit">
+                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xn-wT-AQa" customClass="DCBorderedButton" customModule="DCKit">
                         <rect key="frame" x="18" y="6" width="166" height="165"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <userDefinedRuntimeAttributes>
@@ -45,7 +45,7 @@
                                 <real key="value" value="0.0"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="normalBackgroundColor">
-                                <color key="value" red="0.52146994810000002" green="0.85778843549999995" blue="0.54959218679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="value" red="0.94028634330000005" green="0.94028634330000005" blue="0.94028634330000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </button>

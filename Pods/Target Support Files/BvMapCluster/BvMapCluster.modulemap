@@ -1,6 +1,0 @@
-framework module BvMapCluster {
-  umbrella header "BvMapCluster-umbrella.h"
-
-  export *
-  module * { export * }
-}

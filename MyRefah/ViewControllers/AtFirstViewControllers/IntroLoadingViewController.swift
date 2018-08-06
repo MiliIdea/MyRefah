@@ -11,6 +11,11 @@ import NVActivityIndicatorView
 import DCKit
 import UIColor_Hex_Swift
 import Pastel
+import Alamofire
+import CodableAlamofire
+import Foundation
+import Disk
+
 
 class IntroLoadingViewController: UIViewController {
 
@@ -67,6 +72,36 @@ class IntroLoadingViewController: UIViewController {
     }
     
 
+}
+
+extension UIImageView {
+    func dl(url : String  , completionHandler: @escaping (UIImage?) -> Void){
+        
+        ImageDownloader.loadImage(url: url){img in
+            self.image = img
+            completionHandler(img)
+        }
+
+    }
+}
+
+extension UIButton {
+    
+    func dl(url : String , completionHandler: @escaping (UIImage?) -> Void){
+
+        ImageDownloader.loadImage(url: url){img in
+            self.setBackgroundImage(img, for: .normal)
+            completionHandler(img)
+        }
+
+    }
+    
+    func set(data : String){
+        let dataDecoded : Foundation.Data = Foundation.Data(base64Encoded: data, options: .ignoreUnknownCharacters)!
+        let decodedimage = UIImage(data: dataDecoded)
+        self.setBackgroundImage(decodedimage, for: .normal)
+    }
+    
 }
 
 extension UIViewController {
@@ -128,4 +163,6 @@ extension UIViewController {
     }
     
 }
+
+
 

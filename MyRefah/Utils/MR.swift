@@ -41,8 +41,22 @@ public class MR {
     
     
     
-    static func advertise(vc : UIViewController ,_ withLoading : Bool = true , completionHandler: @escaping (Data<RegisterRes>?) -> Void){
-        request(URLs.getAdvertise, method: .get , parameters: [:] , encoding: JSONEncoding.default).responseDecodableObject(decoder: App.decoder) { (response : DataResponse<Data<RegisterRes>>) in
+    static func advertise(vc : UIViewController ,_ withLoading : Bool = true , completionHandler: @escaping (Data<[DiscountRes]>?) -> Void){
+        request(URLs.getAdvertise, method: .get , parameters: [:] , encoding: JSONEncoding.default).responseDecodableObject(decoder: App.decoder) { (response : DataResponse<Data<[DiscountRes]>>) in
+            self.resHandler(vc: vc, response: response){res in
+                completionHandler(res?.result.value)
+            }
+        }
+        
+    }
+    
+    
+    
+    
+    static func discounts(vc : UIViewController ,page : Int = 0 , numInPage : Int = 20 ,_ withLoading : Bool = true , completionHandler: @escaping (Data<[DiscountRes]>?) -> Void){
+        //+ "/" + numInPage.description
+        let disURL : String = URLs.getDiscounts + page.description
+        request(disURL, method: .get ).responseDecodableObject(decoder: App.decoder) { (response : DataResponse<Data<[DiscountRes]>>) in
             self.resHandler(vc: vc, response: response){res in
                 completionHandler(res?.result.value)
             }
@@ -62,11 +76,11 @@ public class MR {
     
     
     
-    
-    
-    
     static func resHandler<T>(vc : UIViewController , response : DataResponse<Data<T>> , completionHandler: @escaping (DataResponse<Data<T>>?) -> Void){
         vc.view.isUserInteractionEnabled = true
+        print(response.response?.debugDescription)
+        print()
+        print(response.response?.statusCode)
         if(response.response?.statusCode == 200){
             completionHandler(response)
         }else{
@@ -99,6 +113,8 @@ public class MR {
                 }else{
                     vc.view.makeToast("خطایی رخ داده است")
                 }
+            }else{
+                vc.view.makeToast("خطایی رخ داده است")
             }
         }
     }
